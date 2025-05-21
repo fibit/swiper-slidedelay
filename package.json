@@ -1,0 +1,33 @@
+{
+  "name": "swiper-slidedelay",
+  "version": "1.0.0",
+  "description": "SlideDelay plugin for Swiper",
+  "files": [
+    "swiper-slidedelay.js",
+    "swiper-slidedelay.min.js"
+  ],
+  "scripts": {
+    "test": "echo \"Tests skipped\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fibit/swiper-slidedelay.git"
+  },
+  "keywords": [
+    "swiper",
+    "swiper-plugin",
+    "slider",
+    "carousel",
+    "autoplay",
+    "delay"
+  ],
+  "author": "Pavel Romanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fibit/swiper-slidedelay/issues"
+  },
+  "homepage": "https://github.com/fibit/swiper-slidedelay#readme",
+  "peerDependencies": {
+    "swiper": ">=11.0.0"
+  }
+}
