@@ -15,7 +15,15 @@ Pull-in a latest version with NPM:
 ```
 npm i swiper-slidedelay
 ```
-and provide <script> to the required:
+and import it (ESM build `swiper-slidedelay.mjs`):
+```js
+import SlideDelayPlugin from 'swiper-slidedelay';
+```
+or require it (CommonJS):
+```js
+const SlideDelayPlugin = require('swiper-slidedelay');
+```
+or provide <script> to the required:
 ```html
 <script src="/path/to/swiper-slidedelay.min.js"></script>
 ```
